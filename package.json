@@ -1,0 +1,31 @@
+{
+  "name": "Utility-Bill-Splitter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fedolodic/Utility-Bill-Splitter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fedolodic/Utility-Bill-Splitter/issues"
+  },
+  "homepage": "https://github.com/Fedolodic/Utility-Bill-Splitter#readme",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "next": "^9.1.1",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-spring": "^8.0.27",
+    "reactstrap": "^8.1.1"
+  },
+  "devDependencies": {},
+  "description": ""
+}
