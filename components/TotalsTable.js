@@ -20,7 +20,7 @@ export default class TotalsTable extends Component {
                     <td>$33.11</td>
                     <td>$141.15</td>
                     <td>$155.87</td>
-                    <td>$27.54</td>
+                    <td>$54.11</td>
                 </tr>
                 <tr>
                     <th scope="row">October</th>
@@ -35,6 +35,13 @@ export default class TotalsTable extends Component {
                     <td>$71.81</td>
                     <td>$50.02</td>
                     <td>$64.79</td>
+                </tr>
+                <tr>
+                    <th scope="row">December</th>
+                    <td>$130.96</td>
+                    <td>$78.99</td>
+                    <td>$50.02</td>
+                    <td>$70.20</td>
                 </tr>
                 </tbody>
             </Table>

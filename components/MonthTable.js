@@ -28,6 +28,11 @@ export default class MonthTable extends Component {
                     <td>$320.39</td>
                     <td>$80.10</td>
                 </tr>
+                <tr>
+                    <th scope="row">December</th>
+                    <td>$330.17</td>
+                    <td>$82.54</td>
+                </tr>
                 </tbody>
             </Table>
         );

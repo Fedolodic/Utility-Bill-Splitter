@@ -20,7 +20,7 @@ export default class SplitsTable extends Component {
                     <td>$8.28</td>
                     <td>$35.29</td>
                     <td>$38.97</td>
-                    <td>$54.11</td>
+                    <td>$27.54</td>
                 </tr>
                 <tr>
                     <th scope="row">October</th>
@@ -35,6 +35,13 @@ export default class SplitsTable extends Component {
                     <td>$17.96</td>
                     <td>$12.51</td>
                     <td>$16.20</td>
+                </tr>
+                <tr>
+                    <th scope="row">December</th>
+                    <td>$32.74</td>
+                    <td>$19.75</td>
+                    <td>$12.51</td>
+                    <td>$17.55</td>
                 </tr>
                 </tbody>
             </Table>
