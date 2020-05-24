@@ -43,6 +43,34 @@ export default class SplitsTable extends Component {
                     <td>$12.51</td>
                     <td>$17.55</td>
                 </tr>
+                <tr>
+                    <th scope="row">January</th>
+                    <td>$15.43</td>
+                    <td>$14.65</td>
+                    <td>$12.51</td>
+                    <td>$18.20</td>
+                </tr>
+                <tr>
+                    <th scope="row">February</th>
+                    <td>$10.19</td>
+                    <td>$13.00</td>
+                    <td>$12.51</td>
+                    <td>$21.85</td>
+                </tr>
+                <tr>
+                    <th scope="row">March</th>
+                    <td>$20.32</td>
+                    <td>$16.30</td>
+                    <td>$12.51</td>
+                    <td>$15.67</td>
+                </tr>
+                <tr>
+                    <th scope="row">April</th>
+                    <td>$14.36</td>
+                    <td>$14.65</td>
+                    <td>$12.51</td>
+                    <td>$9.95</td>
+                </tr>
                 </tbody>
             </Table>
         );

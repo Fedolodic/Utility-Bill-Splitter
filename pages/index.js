@@ -51,8 +51,9 @@ const Index = () => {
                                 </CardBody>
                             </Card>
                         </Col>
-                </Row>
-                </animated.div>))}
+                    </Row>
+                </animated.div>
+            ))}
             <button onClick={() => toggle(!on)}>Toggle Bills</button>
         </div>
     );

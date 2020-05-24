@@ -33,6 +33,26 @@ export default class MonthTable extends Component {
                     <td>$330.17</td>
                     <td>$82.54</td>
                 </tr>
+                <tr>
+                    <th scope="row">January</th>
+                    <td>$243.14</td>
+                    <td>$60.79</td>
+                </tr>
+                <tr>
+                    <th scope="row">February</th>
+                    <td>$230.14</td>
+                    <td>$57.54</td>
+                </tr>
+                <tr>
+                    <th scope="row">March</th>
+                    <td>$259.12</td>
+                    <td>$64.79</td>
+                </tr>
+                <tr>
+                    <th scope="row">April</th>
+                    <td>$205.85</td>
+                    <td>$51.46</td>
+                </tr>
                 </tbody>
             </Table>
         );
