@@ -1,8 +1,8 @@
-import React, {Fragment, useState} from 'react';
-import TotalsTable from '../components/TotalsTable'
-import SplitsTable from '../components/SplitsTable'
-import MonthTable from '../components/MonthTable'
-import {Row, Col, Card, CardBody, CardTitle, Container} from 'reactstrap'
+import React, {useState} from 'react';
+import BillsTable from '../components/BillsTable/BillsTable'
+import SplitsTable from '../components/SplitsTable/SplitsTable'
+import TotalsTable from '../components/TotalsTable/TotalsTable'
+import {Row, Col, Card, CardBody, CardTitle} from 'reactstrap'
 import {animated, useTransition} from 'react-spring';
 
 const Index = () => {
@@ -30,8 +30,8 @@ const Index = () => {
                         <Col lg="6">
                             <Card className="main-card mb-3">
                                 <CardBody>
-                                    <CardTitle>TOTALS</CardTitle>
-                                    <TotalsTable/>
+                                    <CardTitle>BILLS</CardTitle>
+                                    <BillsTable/>
                                 </CardBody>
                             </Card>
                         </Col>
@@ -46,8 +46,8 @@ const Index = () => {
                         <Col lg="6">
                             <Card className="main-card mb-3">
                                 <CardBody>
-                                    <CardTitle>MONTH</CardTitle>
-                                    <MonthTable/>
+                                    <CardTitle>TOTALS</CardTitle>
+                                    <TotalsTable/>
                                 </CardBody>
                             </Card>
                         </Col>
@@ -66,13 +66,13 @@ transition.map(({ item, props }) => (
     item && <animated.div style={props}>
         <Row>
             <Col lg="6">
-                <TotalsTable/>
+                <BillsTable/>
             </Col>
             <Col lg="6">
                 <SplitsTable/>
             </Col>
             <Col lg="6">
-                <MonthTable/>
+                <TotalsTable/>
             </Col>
         </Row>
     </animated.div>

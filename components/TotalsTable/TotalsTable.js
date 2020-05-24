@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import {Table} from 'reactstrap';
+import {allBills} from "../BillsList";
 
-export default class MonthTable extends Component {
+export default class TotalsTable extends Component {
     render() {
         return (
             <Table hover className="mb-0">
