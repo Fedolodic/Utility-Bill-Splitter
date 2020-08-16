@@ -60,5 +60,11 @@ export const allBills = {
         water: 51.98,
         internet: 50.02,
         gas: 24.27
+    },
+    July: {
+        electricity: 142.13,
+        water: 40.75,
+        internet: 50.02,
+        gas: 25.45
     }
 };
